@@ -49,3 +49,36 @@ ssh-keygen -o
 and press enter for everything don't give any value
 a ssh folder will be created navigate to that folder cd .ssh
 open id_rsa.pub file use cat id_rsa.pub
+copy the key and go to GitHub settings click add new ssh, give a name and paste it
+
+To push files from local to remote repository
+
+git push origin main
+	   |-> url
+
+--> We use tag to maintain the versions of the code
+
+git tag v1.0 -m "Version 1.0"
+
+To push the tag into GitHub: git push origin v1.o
+
+To download or clone a project
+
+git clone "https link in GitHub"
+
+To create a new branch
+
+git checkout -b brach_name
+
+To switch between branches
+git switch feature1
+
+---> While creating branches if we use checkout we have use
+git checkout -b feature1
+---> If we want to use switch
+git switch -c feature2
+
+---> git branch: gives all the local branches
+---> git branch --all gives all the branches including remote ones
+---> git branch -d feature2: deletes the branch feature2
+---> To merge two branches we use: git merge feature2, we have to be on the main branch to merge
