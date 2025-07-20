@@ -1,0 +1,43 @@
+To config credentials
+
+git config --global user.name "ruthvik"
+git config --global user.email "ruthvikkanagani@gmail.com"
+
+To create a local repository we use the command
+
+git init
+
+To delete we use
+
+rm -rf .name
+
+To add a file to staging area
+
+git add filename
+
+To remove a file from staging area
+
+git rm --cached filename
+
+To get history
+
+git log
+
+--> To commit we should bring the files to the staging area first
+--> To skip the staging area and directly commit we should use git commit -a -m "msg"
+
+To see the change once you bring the file to staged area
+
+git diff --staged
+
+To add all the files to the staging area
+
+git add .
+
+To delete after commit
+
+git rm filename
+
+To delete when the file is in staging area
+
+git rm --cached fileName
