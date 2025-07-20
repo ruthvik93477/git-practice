@@ -73,7 +73,7 @@ git checkout -b brach_name
 To switch between branches
 git switch feature1
 
----> While creating branches if we use checkout we have use
+---> While creating branches if we use checkout we have to use
 git checkout -b feature1
 ---> If we want to use switch
 git switch -c feature2
@@ -82,3 +82,6 @@ git switch -c feature2
 ---> git branch --all gives all the branches including remote ones
 ---> git branch -d feature2: deletes the branch feature2
 ---> To merge two branches we use: git merge feature2, we have to be on the main branch to merge
+
+
+By ruthvik kumar kanagani
