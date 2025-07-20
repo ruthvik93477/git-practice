@@ -40,4 +40,12 @@ git rm filename
 
 To delete when the file is in staging area
 
-git rm --cached fileName
+git rm --cached filename
+
+While working with online repo in GitHub to avoid logging in multiple times we use one time setup
+
+ssh-keygen -o
+
+and press enter for everything don't give any value
+a ssh folder will be created navigate to that folder cd .ssh
+open id_rsa.pub file use cat id_rsa.pub
